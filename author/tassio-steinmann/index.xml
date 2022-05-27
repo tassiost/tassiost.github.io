@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tassio Steinmann</title>
+    <link>/author/tassio-steinmann/</link>
+      <atom:link href="/author/tassio-steinmann/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tassio Steinmann</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu7075f2a9e382ff4a971a5f6bd8850afb_10649_512x512_fill_lanczos_center_2.png</url>
+      <title>Tassio Steinmann</title>
+      <link>/author/tassio-steinmann/</link>
+    </image>
+    
+  </channel>
+</rss>

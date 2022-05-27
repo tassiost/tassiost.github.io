@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hand tracking | Tassio Steinmann</title>
+    <link>/tag/hand-tracking/</link>
+      <atom:link href="/tag/hand-tracking/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hand tracking</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7075f2a9e382ff4a971a5f6bd8850afb_10649_512x512_fill_lanczos_center_2.png</url>
+      <title>Hand tracking</title>
+      <link>/tag/hand-tracking/</link>
+    </image>
+    
+    <item>
+      <title>VR for pilots</title>
+      <link>/project/vr-for-pilots/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/project/vr-for-pilots/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.corendonairlines.nl/&#34;&gt;Corendon Airlines&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus, SteamVR&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/wcAPNRji_jo?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        VR for pilots
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We received the task to create a cost-effective alternative to flight simulators for Corendon Airlines.&lt;/p&gt;
+&lt;p&gt;The pilots get to practice the de-icing procedure in VR supported by hand tracking.&lt;/p&gt;
+&lt;p&gt;We collaborated closely with an experienced pilot to implement the features our target audience is looking for.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;li&gt;Hand tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recreated real life dimensions of a Boeing 737 in VR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus &amp;amp; SteamVR integration&lt;/li&gt;
+&lt;li&gt;MRTK hand tracking&lt;/li&gt;
+&lt;li&gt;Interactable buttons, switches and levers&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;UI&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Controls&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_2.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Switches&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_3.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Lever&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hand Over VR</title>
+      <link>/project/hand-over/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/project/hand-over/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus, SteamVR&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/pGmJi6cCfWA?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Hand Over VR
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I had to create a game with a focus on level design. I decided that the player should be the one in charge of that.&lt;/p&gt;
+&lt;p&gt;First the player gets to setup the level however he chooses by moving objects around or scaling them.&lt;/p&gt;
+&lt;p&gt;When the player is ready he can release the enemies and protect his new world.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Game Concept&lt;/li&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;li&gt;Hand tracking&lt;/li&gt;
+&lt;li&gt;Level design system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Imported and converted various assets to be used in level design system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus &amp;amp; SteamVR integration&lt;/li&gt;
+&lt;li&gt;MRTK hand tracking&lt;/li&gt;
+&lt;li&gt;Interactable buttons&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Enemies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Concept&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Kitchen (1970)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_6.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Living Room (1970)&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_5.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;TV corner (1970)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_9.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;TV corner (1980)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_20.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Outside (2010)&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_16.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;UI&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

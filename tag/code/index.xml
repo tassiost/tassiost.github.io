@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code | Tassio Steinmann</title>
+    <link>/tag/code/</link>
+      <atom:link href="/tag/code/index.xml" rel="self" type="application/rss+xml" />
+    <description>Code</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7075f2a9e382ff4a971a5f6bd8850afb_10649_512x512_fill_lanczos_center_2.png</url>
+      <title>Code</title>
+      <link>/tag/code/</link>
+    </image>
+    
+    <item>
+      <title>VR for pilots</title>
+      <link>/project/vr-for-pilots/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/project/vr-for-pilots/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.corendonairlines.nl/&#34;&gt;Corendon Airlines&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus, SteamVR&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/wcAPNRji_jo?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        VR for pilots
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We received the task to create a cost-effective alternative to flight simulators for Corendon Airlines.&lt;/p&gt;
+&lt;p&gt;The pilots get to practice the de-icing procedure in VR supported by hand tracking.&lt;/p&gt;
+&lt;p&gt;We collaborated closely with an experienced pilot to implement the features our target audience is looking for.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;li&gt;Hand tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recreated real life dimensions of a Boeing 737 in VR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus &amp;amp; SteamVR integration&lt;/li&gt;
+&lt;li&gt;MRTK hand tracking&lt;/li&gt;
+&lt;li&gt;Interactable buttons, switches and levers&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;UI&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Controls&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_2.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Switches&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_3.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Lever&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hand Over VR</title>
+      <link>/project/hand-over/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/project/hand-over/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus, SteamVR&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/pGmJi6cCfWA?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Hand Over VR
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I had to create a game with a focus on level design. I decided that the player should be the one in charge of that.&lt;/p&gt;
+&lt;p&gt;First the player gets to setup the level however he chooses by moving objects around or scaling them.&lt;/p&gt;
+&lt;p&gt;When the player is ready he can release the enemies and protect his new world.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Game Concept&lt;/li&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;li&gt;Hand tracking&lt;/li&gt;
+&lt;li&gt;Level design system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Imported and converted various assets to be used in level design system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus &amp;amp; SteamVR integration&lt;/li&gt;
+&lt;li&gt;MRTK hand tracking&lt;/li&gt;
+&lt;li&gt;Interactable buttons&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Enemies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Concept&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Kitchen (1970)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_6.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Living Room (1970)&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_5.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;TV corner (1970)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_9.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;TV corner (1980)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_20.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Outside (2010)&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_16.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;UI&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Iroukaz</title>
+      <link>/project/iroukaz/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/iroukaz/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Windows, MacOS, Linux&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/1Jw2Q8efxjc?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Iroukaz
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Iroukaz is a co-op defence game that focuses on the cooperation between players by the means of combined interactions with traps, towers, and magic spells.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept combat gameplay&lt;/li&gt;
+&lt;li&gt;Controls (Keyboard/Mouse &amp;amp; Gamepad)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Placed some assets&lt;/li&gt;
+&lt;li&gt;Made editor scripts to increase the speed of level designers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Player characters&lt;/li&gt;
+&lt;li&gt;Animations combined with masks&lt;/li&gt;
+&lt;li&gt;Grapple mechanics&lt;/li&gt;
+&lt;li&gt;Sound&lt;/li&gt;
+&lt;li&gt;Camera&lt;/li&gt;
+&lt;li&gt;Ragdoll&lt;/li&gt;
+&lt;li&gt;Enemy hurt animation depending on health level&lt;/li&gt;
+&lt;li&gt;Status effects&lt;/li&gt;
+&lt;li&gt;Some UI &amp;amp; AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Animations&lt;/li&gt;
+&lt;li&gt;Grass&lt;/li&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Shaders&lt;/li&gt;
+&lt;li&gt;Some Particles&lt;/li&gt;
+&lt;li&gt;Shattering/fracturing art assets&lt;/li&gt;
+&lt;li&gt;High Definition Render Pipeline integration&lt;/li&gt;
+&lt;li&gt;Post processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Skyline</title>
+      <link>/project/skyline/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/skyline/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.snowlimits.nl&#34;&gt;SnowLimits Ski Center Groningen&lt;/a&gt;, &lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus Quest&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/V0qNzP6-el4?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Skyline Product Showcase
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;client-snowlimits-ski-center-groningen&#34;&gt;Client: Snowlimits Ski Center Groningen&lt;/h3&gt;
+&lt;p&gt;Snowlimits offers indoor skiing and snowboarding on an endless indoor roller track. Check out the 
+&lt;a href=&#34;https://snowlimits.nl/skischool-snowlimits/&#34; target=&#34;_blank&#34;&gt;
+    Snowlimits website
+&lt;/a&gt;
+ for more information.&lt;/p&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;SnowLimits-Overview.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Graphic (c) by Snowlimits&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;SnowLimits approached us with the idea of making their indoor skiing slopes more exciting with the addition of VR.&lt;/p&gt;
+&lt;p&gt;We created a game that will let their teachers choose a tailored exercise with the adjustable difficulty to exactly match the customers needs.&lt;/p&gt;
+&lt;p&gt;The data from the VR headset gets sent to a server in the cloud which validates it and then sends it to our smartphone app right into the hands of the teacher so that he can see his student&amp;rsquo;s view along all the data he needs.&lt;/p&gt;
+&lt;p&gt;We also integrated hand tracking so more advanced students could train on their own by adjusting settings directly in the game!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept for the communication of the app with the game on the Oculus Quest through a server&lt;/li&gt;
+&lt;li&gt;Concept for VR gameplay&lt;/li&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Replicated real life dimensions of slope in VR &amp;amp; added a mountain terrain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Player character&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;VR setup &amp;amp; Hand tracking&lt;/li&gt;
+&lt;li&gt;Server communication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Universal Render Pipeline integration&lt;/li&gt;
+&lt;li&gt;Post processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;more&#34;&gt;More&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Workshop to explain Unity &amp;amp; Servers to the group&lt;/li&gt;
+&lt;li&gt;Skiing on the slope in VR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Skyline_cover.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Skyline&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PogoSwing</title>
+      <link>/project/pogo-swing/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/project/pogo-swing/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://tassiost.github.io/PogoSwing-WebGL/&#34;&gt;PogoSwing WebGL&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Windows, macOS, Linux, (Oculus &amp;amp; SteamVR WIP)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/kCh-6frxRMg?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Pogo Swing
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I wanted to make a fast paced, first-person 3D platformer game with a underrepresented mechanic: a pogo stick.
+The VR version is still WIP.&lt;/p&gt;
+&lt;p&gt;The player controls a human jumping up &amp;amp; down on a pogo stick that has a grappling
+hook in each hand to traverse the challenging environment.&lt;/p&gt;
+&lt;p&gt;The focus is entirely on gameplay with free movement &amp;amp; simple goals limited
+by time &amp;amp; the environment.&lt;/p&gt;
+&lt;p&gt;Play 
+&lt;a href=&#34;https://ramter77.github.io/PogoSwing-WebGL/&#34; target=&#34;_blank&#34;&gt;
+    PogoSwing WebGL
+&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept (VR) gameplay&lt;/li&gt;
+&lt;li&gt;Controls (Keyboard/Mouse &amp;amp; Gamepad) &amp;amp; VR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Replicated real life terrain in the Patagonian Andes using heightmaps from the area around the “Torres del Paine” National Park &amp;amp; added assets like trees &amp;amp; rocks that extend the gameplay &amp;amp; visuals&lt;/li&gt;
+&lt;li&gt;Concept for 5 different levels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Player character&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Grapple mechanics&lt;/li&gt;
+&lt;li&gt;VR integration (WIP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Universal Render Pipeline integration&lt;/li&gt;
+&lt;li&gt;Post processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Defiance</title>
+      <link>/project/defiance/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/project/defiance/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Windows, macOS, Linux&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/-BQAGysXx98?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Defiance
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We received the task to create an emergent game in a group.&lt;/p&gt;
+&lt;p&gt;The result is a blend of platforming and challenging puzzles set in a procedurally generated labyrinth that&amp;rsquo;s deeply rooted in Greek mythology.&lt;/p&gt;
+&lt;p&gt;The labyrinth houses many dangers and secrets, from traps and enemies, to hidden items and potions.&lt;/p&gt;
+&lt;p&gt;At the end of it three Greek goddesses await you to test your wits and give you a different reward depending on how you choose to deal with the situation.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept for an endless runner/platformer&lt;/li&gt;
+&lt;li&gt;Controls (Keyboard/Mouse &amp;amp; Gamepad)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extended procedural level generator&lt;/li&gt;
+&lt;li&gt;Level editor to enable designers to create levels using our existing structures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Player character&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Extended procedural level generator&lt;/li&gt;
+&lt;li&gt;Interactions, movement abilities &amp;amp; special weapons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Normal maps (WIP)&lt;/li&gt;
+&lt;li&gt;VFX: Trail particles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/l2J6ZZ24D0E?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smoking Allowed</title>
+      <link>/project/smoking-allowed/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/project/smoking-allowed/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus, SteamVR&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/-BQAGysXx98?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Smoking Allowed
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We received the task to create a game in a group that would make people think about smoking and its development over the years.&lt;/p&gt;
+&lt;p&gt;The player gets to experience how prevalent smoking was in the past and then travel into the future after accomplishing a few tasks.&lt;/p&gt;
+&lt;p&gt;We used tunneling to help immerse the players more while simultaneously creating less nausea.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept for the objective structure&lt;/li&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recreated all open-world levels from provided concept art&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oculus &amp;amp; SteamVR integration&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Interactable objects&lt;/li&gt;
+&lt;li&gt;Dialog system&lt;/li&gt;
+&lt;li&gt;Cigarette smoke mechanics&lt;/li&gt;
+&lt;li&gt;Randomized NPCs&lt;/li&gt;
+&lt;li&gt;Tunneling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;VFX: Smoke particles &amp;amp; the fire burning in the chimney&lt;/li&gt;
+&lt;li&gt;Post processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Concept&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Kitchen (1970)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_6.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Living Room (1970)&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_5.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;TV corner (1970)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_9.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;TV corner (1980)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_20.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Outside (2010)&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_16.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;UI&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Endless Mine</title>
+      <link>/project/endless-mine/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/project/endless-mine/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://tassiost.github.io/EndlessMine-WebGL/&#34;&gt;Endless Mine WebGL&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Windows, macOS, Linux, Android, iOS, WebGL&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/eKveNGnQVRQ?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Endless Mine
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I made this simple but fast paced endless 2D side scrolling platformer mobile game by myself, including the procedural art.&lt;/p&gt;
+&lt;p&gt;“Endless Mine” is a game about a miner which goes far into a procedurally generated cave to collect gems.&lt;/p&gt;
+&lt;p&gt;The player is challenged by many randomized obstacles on his way and can jump with his cart to dodge them or collect additional gems to increase his score.&lt;/p&gt;
+&lt;p&gt;Play 
+&lt;a href=&#34;https://ramter77.github.io/EndlessMine/&#34; target=&#34;_blank&#34;&gt;
+    Endless Mine WebGL
+&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept for a 2D endless runner/side scrolling platformer&lt;/li&gt;
+&lt;li&gt;Controls (Keyboard/Mouse &amp;amp; Gamepad)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Procedural level generator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Player character&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Procedural level generator&lt;/li&gt;
+&lt;li&gt;Interactions&lt;/li&gt;
+&lt;li&gt;Efficient, unique blood splats using the stencil mask&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Procedural pixel art using photoshop&lt;/li&gt;
+&lt;li&gt;Normal maps&lt;/li&gt;
+&lt;li&gt;VFX: Trail particles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/wujagkDhDoc?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Endless Mine gameplay
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/l2J6ZZ24D0E?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        More Endless Mine gameplay
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CarCraft</title>
+      <link>/project/car-craft/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/project/car-craft/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Myself&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Windows&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/jLP_34_Vz7E?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        CarCraft
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is the second game I made in my free time in 2013 by combining the aspects of a car with those of an aircraft.&lt;/p&gt;
+&lt;p&gt;The player can steer the car with the arrow keys and uses the WASD keys to control the speed of the propellers and the angle of the rudders.&lt;/p&gt;
+&lt;p&gt;The goal is to compete against simple opponents which drive a normal car and others which just fly by to finish the race in first place.&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept for a racing game&lt;/li&gt;
+&lt;li&gt;Concept for how to combine the driving &amp;amp; flying mechanic&lt;/li&gt;
+&lt;li&gt;Controls (Keyboard/Mouse)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Entire open-world level/terrain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Combined the driving &amp;amp; flying mechanic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;VFX: Smoke particles &amp;amp; trails&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/Yqbo19HoaNY?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        CarCraft gameplay
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;CarCraft Screenshot&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

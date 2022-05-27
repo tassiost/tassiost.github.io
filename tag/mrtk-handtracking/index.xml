@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MRTK Handtracking | Tassio Steinmann</title>
+    <link>/tag/mrtk-handtracking/</link>
+      <atom:link href="/tag/mrtk-handtracking/index.xml" rel="self" type="application/rss+xml" />
+    <description>MRTK Handtracking</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7075f2a9e382ff4a971a5f6bd8850afb_10649_512x512_fill_lanczos_center_2.png</url>
+      <title>MRTK Handtracking</title>
+      <link>/tag/mrtk-handtracking/</link>
+    </image>
+    
+    <item>
+      <title>Skyline</title>
+      <link>/project/skyline/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/skyline/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.snowlimits.nl&#34;&gt;SnowLimits Ski Center Groningen&lt;/a&gt;, &lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Oculus Quest&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/V0qNzP6-el4?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Skyline Product Showcase
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;client-snowlimits-ski-center-groningen&#34;&gt;Client: Snowlimits Ski Center Groningen&lt;/h3&gt;
+&lt;p&gt;Snowlimits offers indoor skiing and snowboarding on an endless indoor roller track. Check out the 
+&lt;a href=&#34;https://snowlimits.nl/skischool-snowlimits/&#34; target=&#34;_blank&#34;&gt;
+    Snowlimits website
+&lt;/a&gt;
+ for more information.&lt;/p&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;SnowLimits-Overview.png&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Graphic (c) by Snowlimits&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;SnowLimits approached us with the idea of making their indoor skiing slopes more exciting with the addition of VR.&lt;/p&gt;
+&lt;p&gt;We created a game that will let their teachers choose a tailored exercise with the adjustable difficulty to exactly match the customers needs.&lt;/p&gt;
+&lt;p&gt;The data from the VR headset gets sent to a server in the cloud which validates it and then sends it to our smartphone app right into the hands of the teacher so that he can see his student&amp;rsquo;s view along all the data he needs.&lt;/p&gt;
+&lt;p&gt;We also integrated hand tracking so more advanced students could train on their own by adjusting settings directly in the game!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept for the communication of the app with the game on the Oculus Quest through a server&lt;/li&gt;
+&lt;li&gt;Concept for VR gameplay&lt;/li&gt;
+&lt;li&gt;VR Controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Replicated real life dimensions of slope in VR &amp;amp; added a mountain terrain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Player character&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;VR setup &amp;amp; Hand tracking&lt;/li&gt;
+&lt;li&gt;Server communication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Universal Render Pipeline integration&lt;/li&gt;
+&lt;li&gt;Post processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;more&#34;&gt;More&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Workshop to explain Unity &amp;amp; Servers to the group&lt;/li&gt;
+&lt;li&gt;Skiing on the slope in VR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Skyline_cover.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Skyline&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
