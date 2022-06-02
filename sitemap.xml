@@ -53,33 +53,38 @@
   </url>
   
   <url>
+    <loc>/tag/ar/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/networking/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/toekomst-coderen/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/2d-gamedesign/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/become-a-virtual-groninger/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/hand-over/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/animation/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/iroukaz/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/leveldesign/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/shader/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/vfx/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -98,8 +103,23 @@
   </url>
   
   <url>
+    <loc>/tag/vfx/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/xr-gamedesign/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/animation/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/iroukaz/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,8 +128,8 @@
   </url>
   
   <url>
-    <loc>/tag/2d-gamedesign/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>/tag/shader/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

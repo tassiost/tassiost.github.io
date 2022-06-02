@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Skyline</title>
+      <title>Skyline VR</title>
       <link>/project/skyline/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/project/skyline/</guid>
@@ -47,7 +47,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
-      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.snowlimits.nl&#34;&gt;SnowLimits Ski Center Groningen&lt;/a&gt;, &lt;a href=&#34;https://www.hanze.nl&#34;&gt;Hanze University&lt;/a&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://www.snowlimits.nl&#34;&gt;SnowLimits Ski Center Groningen&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
@@ -103,8 +103,8 @@
     &lt;span class=&#34;article-header-caption&#34;&gt;Graphic (c) by Snowlimits&lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;SnowLimits approached us with the idea of making their indoor skiing slopes more exciting with the addition of VR.&lt;/p&gt;
-&lt;p&gt;We created a game that will let their teachers choose a tailored exercise with the adjustable difficulty to exactly match the customers needs.&lt;/p&gt;
-&lt;p&gt;The data from the VR headset gets sent to a server in the cloud which validates it and then sends it to our smartphone app right into the hands of the teacher so that he can see his student&amp;rsquo;s view along all the data he needs.&lt;/p&gt;
+&lt;p&gt;We created a game that will let their teachers choose a tailored exercise with adjustable difficulty levels to match the customers needs.&lt;/p&gt;
+&lt;p&gt;The data from the VR headset gets sent to a server in the cloud which validates it and then sends it to our smartphone app right into the hands of the teacher so that he can see his student&amp;rsquo;s view alongside all the data he needs.&lt;/p&gt;
 &lt;p&gt;We also integrated hand tracking so more advanced students could train on their own by adjusting settings directly in the game!&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
@@ -116,18 +116,18 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;level-design&#34;&gt;Level Design&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Replicated real life dimensions of slope in VR &amp;amp; added a mountain terrain.&lt;/li&gt;
+&lt;li&gt;Replicated real life dimensions of slope in VR &amp;amp; added a mountain terrain&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Player character&lt;/li&gt;
 &lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
 &lt;li&gt;VR setup &amp;amp; Hand tracking&lt;/li&gt;
 &lt;li&gt;Server communication&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Sounds&lt;/li&gt;
 &lt;li&gt;Universal Render Pipeline integration&lt;/li&gt;
 &lt;li&gt;Post processing&lt;/li&gt;
 &lt;/ul&gt;

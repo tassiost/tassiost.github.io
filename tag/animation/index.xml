@@ -5,7 +5,7 @@
     <link>/tag/animation/</link>
       <atom:link href="/tag/animation/index.xml" rel="self" type="application/rss+xml" />
     <description>Animation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu7075f2a9e382ff4a971a5f6bd8850afb_10649_512x512_fill_lanczos_center_2.png</url>
       <title>Animation</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Iroukaz</title>
       <link>/project/iroukaz/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/project/iroukaz/</guid>
       <description>&lt;style&gt;
 .quickfacts {
@@ -92,7 +92,7 @@
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Iroukaz is a co-op defence game that focuses on the cooperation between players by the means of combined interactions with traps, towers, and magic spells.&lt;/p&gt;
+&lt;p&gt;Iroukaz is a co-op defence game that focuses on the cooperation between players by the means of combined interactions with traps, towers, and spells.&lt;/p&gt;
 &lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
 &lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
 &lt;ul&gt;
@@ -106,15 +106,14 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Player characters&lt;/li&gt;
+&lt;li&gt;Player &amp;amp; enemy characters&lt;/li&gt;
 &lt;li&gt;Animations combined with masks&lt;/li&gt;
-&lt;li&gt;Grapple mechanics&lt;/li&gt;
-&lt;li&gt;Sound&lt;/li&gt;
+&lt;li&gt;Enemy hurt animation depending on health level&lt;/li&gt;
 &lt;li&gt;Camera&lt;/li&gt;
 &lt;li&gt;Ragdoll&lt;/li&gt;
-&lt;li&gt;Enemy hurt animation depending on health level&lt;/li&gt;
 &lt;li&gt;Status effects&lt;/li&gt;
 &lt;li&gt;Some UI &amp;amp; AI&lt;/li&gt;
+&lt;li&gt;Splitscreen sound&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
 &lt;ul&gt;
@@ -127,8 +126,6 @@
 &lt;li&gt;High Definition Render Pipeline integration&lt;/li&gt;
 &lt;li&gt;Post processing&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
 &lt;hr&gt;
 </description>
     </item>

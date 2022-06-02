@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking | Tassio Steinmann</title>
+    <link>/tag/networking/</link>
+      <atom:link href="/tag/networking/index.xml" rel="self" type="application/rss+xml" />
+    <description>Networking</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7075f2a9e382ff4a971a5f6bd8850afb_10649_512x512_fill_lanczos_center_2.png</url>
+      <title>Networking</title>
+      <link>/tag/networking/</link>
+    </image>
+    
+    <item>
+      <title>Toekomst Coderen</title>
+      <link>/project/toekomst-coderen/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/project/toekomst-coderen/</guid>
+      <description>&lt;style&gt;
+.quickfacts {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 0.9em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.quickfacts td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 50%;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;quick-facts&#34;&gt;Quick Facts&lt;/h2&gt;
+&lt;table class=&#34;quickfacts&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Live Link&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Work in Progress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Client&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;&lt;a href=&#34;https://toekomstcoderen.nl/&#34;&gt;Toekomst Coderen&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Team Size&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Engine&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Unity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Mobile&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;information&#34;&gt;Information&lt;/h2&gt;
+&lt;style&gt;
+    .youtube-caption {
+      padding: 5px 10px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 2px 5px;
+      color: #fff;
+      font-size: .7em;
+      background: #000;
+      text-align: right;
+      z-index: 5;
+      opacity: 0.65;
+      border-radius: 0 0 5px 5px;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+    &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+        width=731 height=410
+        src=&#34;https://www.youtube.com/embed/dgflVfyKzwc?rel=0&#34;
+        allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+    &lt;div class=&#34;youtube-caption&#34;&gt;
+        Toekomst Coderen Trailer
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On my second project for my internship at Indietopia I helped setup networking for the game Toekomst Coderen.&lt;/p&gt;
+&lt;p&gt;Toekomst Coderen is a unique and interactive AR game played with an app and game board. It has been specially developed to get started with study choice and career orientation.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/channel/UCd7VLNziJ616dbdphz5LNgQ&#34; target=&#34;_blank&#34;&gt;
+    YouTube Channel
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://toekomstcoderen.nl/shop/&#34; target=&#34;_blank&#34;&gt;
+    Buy the Game
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
+&lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;2 minigame concepts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Networking&lt;/li&gt;
+&lt;li&gt;UI&lt;/li&gt;
+&lt;li&gt;Swiping input&lt;/li&gt;
+&lt;li&gt;Mobile compatibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_0.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Game Board in App&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_1.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Game Board&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_2.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 1&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_3.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 2&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_4.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 3&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_5.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 4&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_6.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 5&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_7.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 6&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_8.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 7&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative&#34;&gt;
+    &lt;img src=&#34;Screenshot_9.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+    &lt;span class=&#34;article-header-caption&#34;&gt;Promotion poster 8&lt;/span&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -59,7 +59,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td class=&#34;col-1&#34;&gt;&lt;b&gt;Platform&lt;b&gt;&lt;/td&gt;
-      &lt;td class=&#34;col-2&#34;&gt;Windows, macOS, Linux, Android, iOS, WebGL&lt;/td&gt;
+      &lt;td class=&#34;col-2&#34;&gt;Windows, MacOS, Linux, Android, iOS, WebGL&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -96,10 +96,10 @@
 &lt;p&gt;“Endless Mine” is a game about a miner which goes far into a procedurally generated cave to collect gems.&lt;/p&gt;
 &lt;p&gt;The player is challenged by many randomized obstacles on his way and can jump with his cart to dodge them or collect additional gems to increase his score.&lt;/p&gt;
 &lt;p&gt;Play 
-&lt;a href=&#34;https://ramter77.github.io/EndlessMine/&#34; target=&#34;_blank&#34;&gt;
+&lt;a href=&#34;https://tassiost.github.io/EndlessMine-WebGL/&#34; target=&#34;_blank&#34;&gt;
     Endless Mine WebGL
 &lt;/a&gt;
-.&lt;/p&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;roles--responsibilities&#34;&gt;Roles &amp;amp; Responsibilities&lt;/h2&gt;
 &lt;h3 id=&#34;game-design&#34;&gt;Game Design&lt;/h3&gt;
 &lt;ul&gt;
@@ -117,10 +117,11 @@
 &lt;li&gt;Procedural level generator&lt;/li&gt;
 &lt;li&gt;Interactions&lt;/li&gt;
 &lt;li&gt;Efficient, unique blood splats using the stencil mask&lt;/li&gt;
+&lt;li&gt;Sounds&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;art&#34;&gt;Art&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Sounds&lt;/li&gt;
+&lt;li&gt;Lighting&lt;/li&gt;
 &lt;li&gt;Procedural pixel art using photoshop&lt;/li&gt;
 &lt;li&gt;Normal maps&lt;/li&gt;
 &lt;li&gt;VFX: Trail particles&lt;/li&gt;
